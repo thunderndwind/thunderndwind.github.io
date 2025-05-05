@@ -1,0 +1,68 @@
+.hero-section {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 100px 0;
+
+  .logo {
+    width: 200px; 
+    height: auto;
+    border-radius: 50%; 
+    border: 3px solid #4a90e2; 
+    padding: 5px; 
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #4a90e2; 
+  }
+
+  .lead {
+    font-size: 1.5rem;
+    color: #cccccc; 
+  }
+
+  .contact-me {
+    max-width: 600px;
+
+    .text-muted {
+      color: #999999 !important; 
+      font-style: italic; 
+    }
+
+    .btn-primary {
+      background-color: #4a90e2; 
+      border: none;
+      padding: 10px 30px;
+      font-size: 1.1rem;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #357abd; 
+      }
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 60px 0;
+
+    .logo {
+      width: 150px; 
+    }
+
+    h1 {
+      font-size: 2.5rem; 
+    }
+
+    .lead {
+      font-size: 1.2rem; 
+    }
+
+    .contact-me {
+      text-align: center; 
+    }
+  }
+}

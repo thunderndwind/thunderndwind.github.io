@@ -1,0 +1,15 @@
+<section class="skills-section py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Skills</h2>
+        <div class="row">
+            @for (skill of skills; track skill.name) {
+            <div class="col-md-6 mb-4">
+                <app-skill
+                    [skillName]="skill.name"
+                    [skillPercentage]="skill.percentage"
+                    [skillIcon]="skill.icon"></app-skill>
+            </div>
+            }
+        </div>
+    </div>
+</section>

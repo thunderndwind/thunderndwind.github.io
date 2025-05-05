@@ -1,0 +1,29 @@
+.skill-item {
+  margin-bottom: 20px;
+}
+
+.skill-name {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.skill-icon {
+  margin-right: 10px;
+  color: #4a90e2;
+}
+
+.progress {
+  height: 15px;
+  background-color: #333333;
+  border-radius: 5px;
+  overflow: hidden;
+  max-width: 100%;
+  width: 100%;
+}
+
+.progress-bar {
+  background-color: #4a90e2;
+  transition: width 0.5s ease;
+}

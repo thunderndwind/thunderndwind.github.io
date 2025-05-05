@@ -1,0 +1,17 @@
+<div class="skill-item">
+    <div class="skill-name">
+        <fa-icon [icon]="skillIcon" class="skill-icon"></fa-icon> {{ skillName
+        }}
+    </div>
+    <div class="progress">
+        <div
+            class="progress-bar"
+            role="progressbar"
+            [style.width.%]="skillPercentage"
+            [attr.aria-valuenow]="skillPercentage"
+            aria-valuemin="0"
+            aria-valuemax="100">
+            {{ skillPercentage }}%
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+.skills-section {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 100px 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #4a90e2; /* Blue color for the heading */
+  margin-bottom: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .skills-section {
+    padding: 60px 0;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
